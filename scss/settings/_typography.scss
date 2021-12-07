@@ -1,0 +1,12 @@
+.heading {
+  &__h1 {
+    font-size: 33px;
+    line-height: 50px;
+    font-family: $font-secondary;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 48px;
+      line-height: 64px;
+    }
+  }
+}

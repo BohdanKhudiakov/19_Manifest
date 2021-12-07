@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.heading__h1 {
+  font-size: 33px;
+  line-height: 50px;
+  font-family: "Red Hat Display", sans-serif;
+}
+@media screen and (min-width: 1024px) {
+  .heading__h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+.body {
+  min-width: 320px;
+  color: #565656;
+  font-size: 19px;
+  padding: 110px 0 70px;
+  font-family: "Lato", sans-serif;
+}
+
+.logo {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .logo {
+    margin-bottom: 50px;
+  }
+}
+.logo__link {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.main__title {
+  width: 75%;
+}
+@media screen and (min-width: 768px) {
+  .main__title {
+    width: 100%;
+  }
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 0 15px;
+}
+
+.banner {
+  background-image: url("../img/banner-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+}
+@media screen and (min-width: 768px) {
+  .banner {
+    background-image: url("../img/banner-tablet.jpg");
+    height: 52vw;
+    min-height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
